@@ -1,0 +1,14 @@
+.pHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: brown;
+
+}
+.imgLang{
+    height: 15px;
+}
+.homeContent {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 15px;
+}
