@@ -63,11 +63,11 @@
 }
 .dropdown-menu .dropdown-item{
     color: black;
-    background-color: brown;
+    background-color: yellow;
 }
 .dropdown-menu .dropdown-item:hover {
     color: black;
 }
-.dropdown-item:hover {
+.dropdown:hover .dropdown-menu {
     background-color: yellow;
-}
+    display: block;}
