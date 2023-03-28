@@ -36,17 +36,11 @@
 .dropdown-menu{
     background-color: #b01116;
 }
-.dropdown-item{
+.dropdown-item{tin 
     color: white;
 }
-.dropdown-item:hover
-{
-background-color: yellow;
-}
-a.nav-link.dropdown-toggle:hover{
-    color: black;
-    background-color: yellow;
-}
+
+
 .navbar-brand:hover{
     background-color: yellow;
     color: black;
@@ -55,3 +49,26 @@ a.nav-link.dropdown-toggle:hover{
     list-style-type: none;
     display: inline;
 }
+/* Nếu thấy dòng này trên github thì đã up lên được */
+/* Drop nav */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+    background-color: brown;
+}
+.dropdown-menu .dropdown-item{
+    color: black;
+    background-color: yellow;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: black;
+}
+.dropdown:hover .dropdown-menu {
+    background-color: yellow;
+    display: block;}
